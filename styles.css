@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+    background-color: #f4f4f4;
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar-brand {
+    font-size: 24px;
+}
+
+.maincontainer {
+    background-image: url('https://assets.ccbp.in/frontend/dynamic-webapps/library-management-bg.png');
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.titlename {
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.form-control {
+    border-radius: 20px;
+    border: 2px solid #007bff;
+    padding: 10px 20px;
+}
+
+#booksList, #checkoutRecords {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.result-item {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px;
+}
+
+.result-item img {
+    max-width: 100%;
+    border-bottom: 2px solid #f1f1f1;
+}
+
+.result-item h5 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.result-item p {
+    font-size: 14px;
+    color: #555;
+}
+
+.spinner-border {
+    width: 3rem;
+    height: 3rem;
+}
+
+@media (max-width: 576px) {
+    .result-item {
+        max-width: 100%;
+    }
+}
